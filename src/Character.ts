@@ -86,6 +86,6 @@ export default class Character implements Fighter {
   }
 
   special?(): void {
-    this._defense *= 10;
+    this._strength *= 999;
   }
 }
